@@ -1,0 +1,16 @@
+{
+  "name": "weekly9",
+  "version": "1.0.0",
+  "description": "psd to html",
+  "main": "index.html",
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "Dominik Smutek",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
