@@ -129,12 +129,12 @@ body {
 
 .about-me {
   padding-top: 140px; }
-  .about-me h1 {
+  .about-me h2 {
     text-align: center;
     color: #838383;
     font-size: 25px;
     padding-bottom: 60px; }
-    .about-me h1:after {
+    .about-me h2:after {
       content: "\00a0";
       display: block;
       border: none;
@@ -157,12 +157,12 @@ body {
 .works {
   padding-top: 140px;
   padding-bottom: 50px; }
-  .works h1 {
+  .works h2 {
     text-align: center;
     color: #838383;
     font-size: 25px;
     padding-bottom: 60px; }
-    .works h1:after {
+    .works h2:after {
       content: "\00a0";
       display: block;
       border: none;
@@ -393,12 +393,12 @@ body {
 
 .testimonials {
   padding-top: 140px; }
-  .testimonials h1 {
+  .testimonials h2 {
     text-align: center;
     color: #838383;
     font-size: 25px;
     padding-bottom: 60px; }
-    .testimonials h1:after {
+    .testimonials h2:after {
       content: "\00a0";
       display: block;
       border: none;
@@ -485,12 +485,12 @@ body {
 .followMe {
   padding-top: 100px;
   padding-bottom: 50px; }
-  .followMe h1 {
+  .followMe h2 {
     text-align: center;
     color: #838383;
     font-size: 25px;
     padding-bottom: 30px; }
-    .followMe h1:after {
+    .followMe h2:after {
       content: "\00a0";
       display: block;
       border: none;
@@ -555,12 +555,12 @@ body {
   margin-top: 70px;
   color: #838383;
   padding-top: 30px; }
-  .contact h1 {
+  .contact h2 {
     text-align: center;
     font-size: 25px;
     padding-bottom: 60px;
     padding-top: 40px; }
-    .contact h1:after {
+    .contact h2:after {
       content: "\00a0";
       display: block;
       border: none;
@@ -657,7 +657,7 @@ footer {
     margin: 0 auto;
     text-align: center;
     margin-top: 30px; }
-    footer .author h1 {
+    footer .author h2 {
       font-size: 21px; }
     footer .author p {
       font-size: 15px; }
@@ -690,7 +690,9 @@ footer {
     background-color: #fff; }
   div.navbar-collapse.collapse.in {
     border-bottom: 1px solid #838383; }
-  .about-me h1 {
+  .arrow-down {
+    padding-bottom: 30px; }
+  .about-me h2 {
     padding-top: 30px; }
   .about-me p {
     width: 260px;
@@ -911,7 +913,9 @@ footer {
     background-color: #fff; }
   div.navbar-collapse.collapse.in {
     border-bottom: 1px solid #838383; }
-  .about-me h1 {
+  .arrow-down {
+    padding-bottom: 30px; }
+  .about-me h2 {
     padding-top: 30px; }
   .about-me p {
     width: 290px; }
@@ -1078,7 +1082,7 @@ footer {
     background-color: #fff; }
   div.navbar-collapse.collapse.in {
     border-bottom: 1px solid #838383; }
-  .about-me h1 {
+  .about-me h2 {
     padding-top: 30px; }
   .about-me p {
     width: 320px; }
@@ -1359,4 +1363,39 @@ footer {
     filter: grayscale(70%); }
     .img5:hover .img-desc {
       width: 63%;
+      height: 140px; } }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .img5 .img-box .img-desc {
+    background: url("../images/frame.png");
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 120px;
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    transition: width 0.3s, height 0.3s ease-in-out; }
+    .img5 .img-box .img-desc .img-title {
+      padding-top: 15px;
+      margin-bottom: 5px;
+      font-size: 25px; }
+    .img5 .img-box .img-desc .img-subtitle {
+      font-family: "Raleway", sans-serif;
+      font-size: 16px; }
+      .img5 .img-box .img-desc .img-subtitle:before {
+        content: "";
+        display: block;
+        border: none;
+        border-bottom: 2px solid #fff;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-bottom: 5px; }
+  .img5:hover {
+    opacity: 0.9;
+    filter: grayscale(70%); }
+    .img5:hover .img-desc {
+      width: 45%;
       height: 140px; } }

@@ -54,7 +54,7 @@ $('a[href*="#"]')
             return false;
           } else {
             $target.attr('tabindex','-1'); 
-            $target.focus(); n
+            $target.focus();
           };
         });
       }

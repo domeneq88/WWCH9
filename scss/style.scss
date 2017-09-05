@@ -147,7 +147,7 @@ body {
 	padding-top: 140px;
 	
 
-	h1 {
+	h2 {
 		text-align: center;
 		color: rgb(131, 131, 131);
 		font-size: 25px;
@@ -184,7 +184,7 @@ body {
 
 
 
-	h1 {
+	h2 {
 		text-align: center;
 		color: rgb(131, 131, 131);
 		font-size: 25px;
@@ -500,7 +500,7 @@ body {
 .testimonials {
 	padding-top: 140px;
 
-	h1 {
+	h2 {
 		text-align: center;
 		color: rgb(131, 131, 131);
 		font-size: 25px;
@@ -628,7 +628,7 @@ body {
 
 
 
-	h1 {
+	h2 {
 		text-align: center;
 		color: rgb(131, 131, 131);
 		font-size: 25px;
@@ -716,7 +716,7 @@ body {
 	color: rgb(131, 131, 131);
 	padding-top: 30px;
 
-	h1 {
+	h2 {
 		text-align: center;
 		font-size: 25px;
 		padding-bottom: 60px;
@@ -845,7 +845,7 @@ footer {
 	text-align: center;
 	margin-top: 30px;
 
-	h1 {
+	h2 {
 		font-size: 21px;
 	}
 
@@ -908,11 +908,13 @@ footer {
 		border-bottom: 1px solid rgb(131, 131, 131);	
 	}
 
-
+	.arrow-down {
+		padding-bottom: 30px;
+	}
 	
 
 	.about-me {
-		h1 {
+		h2 {
 			padding-top: 30px;
 		}
 
@@ -1231,9 +1233,12 @@ footer {
 		border-bottom: 1px solid rgb(131, 131, 131);	
 	}
 
+.arrow-down {
+		padding-bottom: 30px;
+	}
 
 	.about-me {
-		h1 {
+		h2 {
 			padding-top: 30px;
 		}
 
@@ -1483,7 +1488,7 @@ footer {
 		border-bottom: 1px solid rgb(131, 131, 131);	
 	}
 	.about-me {
-		h1 {
+		h2 {
 			padding-top: 30px;
 		}
 
@@ -1894,5 +1899,56 @@ footer {
 
 
 @media (min-width: 769px) and (max-width: 1024px) {
+	.img5{
+		.img-box {
+
+			.img-desc {
+				background: url('../images/frame.png');
+				background-size: 100% 100%;
+				margin: 0 auto;
+			  	margin-top: 100px;
+			 	height: 120px;
+			  	width: 40%;
+			  	padding: 20px;
+			  	text-align: center;
+				vertical-align: middle;
+	    		transition: width 0.3s, height 0.3s ease-in-out;
+				
+				.img-title {
+					padding-top: 15px;
+					margin-bottom: 5px;
+					font-size: 25px;
+				}
+
+				.img-subtitle {
+					font-family: $comain-font;
+					font-size: 16px;
+
+					&:before {
+						content:"";
+						display: block;
+						border: none;
+						border-bottom: 2px solid #fff;
+						left: 0;
+						right: 0;
+						margin: auto;
+						margin-bottom: 5px;
+						}
+				}
+
+		}
+	}
+
+		&:hover {
+			.img-desc {
+				width: 45%;
+				height: 140px;
+			}
+		
+		opacity: 0.9;
+		filter: grayscale(70%);
+	}
+
+}
 
 }
